@@ -2,6 +2,15 @@ name: Daily Investment Report
 
 on:
   workflow_dispatch:
+    inputs:
+      report_type:
+        description: Report type
+        required: true
+        default: PRE_MARKET
+        type: choice
+        options:
+          - PRE_MARKET
+          - POST_MARKET
   schedule:
     - cron: "0 12 * * *"
     - cron: "0 0 * * *"
@@ -9,22 +18,41 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-investment-report
+  cancel-in-progress: false
+
 jobs:
   generate-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - name: Set report type
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            REPORT_TYPE="${{ inputs.report_type }}"
+          elif [[ "${{ github.event.schedule }}" == "0 12 * * *" ]]; then
+            REPORT_TYPE="PRE_MARKET"
+          else
+            REPORT_TYPE="POST_MARKET"
+          fi
+          echo "REPORT_TYPE=$REPORT_TYPE" >> "$GITHUB_ENV"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
+          cache: pip
       - run: pip install -r requirements.txt
-      - run: python main.py
-      - name: Commit report
+      - name: Run tests
+        run: pytest -q
+      - name: Generate report
+        run: python main.py --report-type "$REPORT_TYPE"
+      - name: Commit generated reports
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/latest_report.md
-          git diff --cached --quiet || git commit -m "Update daily investment report"
+          git add reports/
+          git diff --cached --quiet || git commit -m "Update ${REPORT_TYPE} investment report"
           git push
