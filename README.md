@@ -1,25 +1,54 @@
-# NYSE Investment Engine — v1.1.2
+# NYSE Investment Engine — v2.0
 
-Institutional quantitative screening engine for liquid U.S. equities using public Yahoo Finance data.
+Institutional multi-factor investment engine for liquid U.S. equities using public Yahoo Finance data.
 
-## Current capabilities
+## Core model
 
-- Downloads five years of adjusted daily market data through `yfinance`
-- Applies minimum price and liquidity filters to the general universe
-- Always analyzes the Strategic Watchlist: PPG, CPA, AMD, NVDA and QCOM
-- Calculates trend, momentum, RSI, MACD, ATR, volatility and average volume
-- Produces:
-  - Highest Conviction Long Ideas
-  - Top 20 Appreciation Opportunities
-  - Highest Conviction Short Ideas
-  - Top 20 Decline Risks
-  - Strategic Watchlist
-  - Trading Signals
-- Applies a minimum actionable Risk/Reward of 2.0:1
-- Keeps Target Price and Take Profit distinct
-- Generates Markdown and JSON reports
-- Stores separate pre-market, post-market and historical reports
-- Runs automatically at 7:00 a.m. and 7:00 p.m. Panama time
+The final investment view combines five pillars:
+
+1. Technical
+2. Fundamental
+3. Events
+4. Analyst Consensus
+5. Risk
+
+The engine produces:
+
+- Technical Score
+- Fundamental Score
+- Event Score
+- Analyst Score
+- Risk Score
+- Final Investment Score
+- Target Price
+- Stop Loss
+- Take Profit
+- Risk/Reward
+- Recommendation
+- Position Status
+- Action
+- Recent Catalyst / Risk
+- Bull Case
+- Bear Case
+- Committee View
+
+## Current scope
+
+- Five years of daily market data
+- Public Yahoo Finance company data
+- General price and liquidity filters
+- Permanent Strategic Watchlist:
+  - PPG
+  - CPA
+  - AMD
+  - NVDA
+  - QCOM
+- Pre-market and post-market reports
+- Markdown and JSON output
+- Historical reports
+- Ranking-change tracking
+- Risk/Reward filter
+- Automated GitHub Actions execution
 
 ## Generated files
 
@@ -34,7 +63,7 @@ reports/history/YYYY-MM-DD_HHMM_PRE_MARKET.json
 reports/history/YYYY-MM-DD_HHMM_POST_MARKET.json
 ```
 
-## Run manually
+## Manual execution
 
 ```bash
 pip install -r requirements.txt
@@ -50,12 +79,3 @@ python main.py --report-type POST_MARKET
 ## Data source
 
 Yahoo Finance data accessed through the unofficial `yfinance` package. Intended for personal research and informational use.
-
-
-## v1.1.2 additions
-
-- Recent news and event scoring
-- Analyst recommendation and target integration
-- Thesis Score and Combined Score
-- Conflict detection between quantitative and recent-event evidence
-- Recent Catalyst / Risk in all key report tables

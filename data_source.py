@@ -30,3 +30,7 @@ def download_history(ticker: str, period: str = "5y") -> pd.DataFrame:
         raise ValueError(f"No valid closing prices for {ticker}")
 
     return data
+
+
+def get_ticker(ticker: str) -> yf.Ticker:
+    return yf.Ticker(ticker)

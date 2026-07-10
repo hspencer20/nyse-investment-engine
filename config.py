@@ -21,7 +21,18 @@ REPORT_DIR = "reports"
 HISTORY_DIR = "reports/history"
 TIMEZONE = "America/Panama"
 
-RECENT_NEWS_DAYS = 30
-MAX_NEWS_ITEMS = 12
-QUANT_WEIGHT = 0.70
-THESIS_WEIGHT = 0.30
+RECENT_NEWS_DAYS = 45
+MAX_NEWS_ITEMS = 16
+
+WEIGHTS = {
+    "technical": 0.30,
+    "fundamental": 0.25,
+    "events": 0.15,
+    "analyst": 0.15,
+    "risk": 0.15,
+}
+
+TARGET_BLEND = {
+    "model": 0.60,
+    "analyst": 0.40,
+}
