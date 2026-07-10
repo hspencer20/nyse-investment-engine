@@ -1,4 +1,4 @@
-# NYSE Investment Engine — v1.1
+# NYSE Investment Engine — v1.1.2
 
 Institutional quantitative screening engine for liquid U.S. equities using public Yahoo Finance data.
 
@@ -50,3 +50,12 @@ python main.py --report-type POST_MARKET
 ## Data source
 
 Yahoo Finance data accessed through the unofficial `yfinance` package. Intended for personal research and informational use.
+
+
+## v1.1.2 additions
+
+- Recent news and event scoring
+- Analyst recommendation and target integration
+- Thesis Score and Combined Score
+- Conflict detection between quantitative and recent-event evidence
+- Recent Catalyst / Risk in all key report tables
