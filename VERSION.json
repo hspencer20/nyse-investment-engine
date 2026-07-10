@@ -1,0 +1,37 @@
+{
+  "version": "1.1",
+  "files": [
+    ".github/workflows/daily-report.yml",
+    ".gitignore",
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "README.md",
+    "__pycache__/config.cpython-313.pyc",
+    "__pycache__/data_source.cpython-313.pyc",
+    "__pycache__/indicators.cpython-313.pyc",
+    "__pycache__/main.cpython-313.pyc",
+    "__pycache__/model.cpython-313.pyc",
+    "__pycache__/report.cpython-313.pyc",
+    "__pycache__/storage.cpython-313.pyc",
+    "config.py",
+    "data_source.py",
+    "indicators.py",
+    "main.py",
+    "model.py",
+    "pytest.ini",
+    "report.py",
+    "reports/.gitkeep",
+    "reports/history/.gitkeep",
+    "requirements.txt",
+    "storage.py",
+    "tests/__pycache__/test_model.cpython-313-pytest-9.0.2.pyc",
+    "tests/__pycache__/test_model.cpython-313.pyc",
+    "tests/test_model.py"
+  ],
+  "validation": {
+    "python_syntax": "passed",
+    "unit_tests": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                      [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m3 passed\u001b[0m\u001b[32m in 0.11s\u001b[0m\u001b[0m"
+  }
+}
