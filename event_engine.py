@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone, timedelta
 from typing import Any
+import re
 
 from config import MAX_NEWS_ITEMS, RECENT_NEWS_DAYS
 
@@ -36,8 +37,10 @@ def safe_news(stock) -> list[dict[str, Any]]:
 def headline_text(item: dict[str, Any]) -> str:
     content = item.get("content") if isinstance(item, dict) else None
     if isinstance(content, dict):
-        return f"{content.get('title', '')} {content.get('summary', '')}".strip()
-    return str(item.get("title", "")) if isinstance(item, dict) else ""
+        title = str(content.get("title", "") or "").strip()
+        summary = str(content.get("summary", "") or "").strip()
+        return f"{title} {summary}".strip()
+    return str(item.get("title", "") or "").strip() if isinstance(item, dict) else ""
 
 
 def published_at(item: dict[str, Any]) -> datetime | None:
@@ -49,25 +52,62 @@ def published_at(item: dict[str, Any]) -> datetime | None:
                 return datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
             except ValueError:
                 pass
+
     raw_ts = item.get("providerPublishTime") if isinstance(item, dict) else None
     if raw_ts:
         try:
             return datetime.fromtimestamp(int(raw_ts), tz=timezone.utc)
         except Exception:
             return None
+
     return None
+
+
+def normalize_alias(alias: str) -> str:
+    alias = alias.lower().strip(" ,.")
+    alias = re.sub(r"\b(incorporated|inc|corp|corporation|company|holdings|group|plc|ltd)\b", "", alias)
+    alias = re.sub(r"[^a-z0-9]+", " ", alias)
+    return re.sub(r"\s+", " ", alias).strip()
+
+
+def relevant_aliases(ticker: str, aliases: list[str]) -> list[str]:
+    values = {ticker.lower()}
+    for alias in aliases:
+        normalized = normalize_alias(alias)
+        if len(normalized) >= 3:
+            values.add(normalized)
+    return sorted(values, key=len, reverse=True)
 
 
 def is_relevant(text: str, ticker: str, aliases: list[str]) -> bool:
     lower = text.lower()
-    if ticker.lower() in lower:
-        return True
-    ignored = {"inc", "inc.", "corp", "corporation", "company", "holdings", "group"}
-    for alias in aliases:
-        normalized = alias.lower().strip(" ,.")
-        if len(normalized) >= 4 and normalized not in ignored and normalized in lower:
-            return True
-    return False
+    candidates = relevant_aliases(ticker, aliases)
+
+    # La compañía debe aparecer en el título o en el primer tercio del texto.
+    first_third = lower[:max(120, len(lower) // 3)]
+    return any(alias in first_third for alias in candidates)
+
+
+def clean_excerpt(text: str, limit: int = 240) -> str:
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text
+
+    shortened = text[:limit]
+    last_period = max(
+        shortened.rfind(". "),
+        shortened.rfind("? "),
+        shortened.rfind("! "),
+    )
+
+    if last_period >= 100:
+        return shortened[:last_period + 1].strip()
+
+    last_space = shortened.rfind(" ")
+    if last_space > 0:
+        shortened = shortened[:last_space]
+
+    return shortened.rstrip(" ,;:-") + "…"
 
 
 def event_score(stock, ticker: str, aliases: list[str]) -> dict:
@@ -87,8 +127,11 @@ def event_score(stock, ticker: str, aliases: list[str]) -> dict:
             continue
 
         lower = text.lower()
-        item_score = sum(weight for term, weight in EVENT_WEIGHTS.items() if term in lower)
-        scored.append((item_score, text[:240]))
+        item_score = sum(
+            weight for term, weight in EVENT_WEIGHTS.items()
+            if term in lower
+        )
+        scored.append((item_score, clean_excerpt(text)))
 
     if not scored:
         return {
@@ -106,8 +149,20 @@ def event_score(stock, ticker: str, aliases: list[str]) -> dict:
 
     return {
         "event_score": round(score, 1),
-        "recent_catalyst": bullish[1] if bullish[0] > 0 else "No material recent catalyst identified.",
-        "recent_risk": bearish[1] if bearish[0] < 0 else "No material recent risk identified.",
-        "event_bias": "Bullish" if score >= 60 else "Bearish" if score <= 40 else "Neutral",
+        "recent_catalyst": (
+            bullish[1]
+            if bullish[0] > 0
+            else "No material recent catalyst identified."
+        ),
+        "recent_risk": (
+            bearish[1]
+            if bearish[0] < 0
+            else "No material recent risk identified."
+        ),
+        "event_bias": (
+            "Bullish" if score >= 60
+            else "Bearish" if score <= 40
+            else "Neutral"
+        ),
         "news_items_used": len(scored),
     }
