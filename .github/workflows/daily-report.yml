@@ -12,8 +12,8 @@ on:
           - PRE_MARKET
           - POST_MARKET
   schedule:
-    - cron: "0 12 * * *"
-    - cron: "0 0 * * *"
+    - cron: "0 12 * * 1-5"
+    - cron: "0 0 * * 2-6"
 
 permissions:
   contents: write
@@ -25,29 +25,32 @@ concurrency:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Set report type
         shell: bash
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             REPORT_TYPE="${{ inputs.report_type }}"
-          elif [[ "${{ github.event.schedule }}" == "0 12 * * *" ]]; then
+          elif [[ "${{ github.event.schedule }}" == "0 12 * * 1-5" ]]; then
             REPORT_TYPE="PRE_MARKET"
           else
             REPORT_TYPE="POST_MARKET"
           fi
           echo "REPORT_TYPE=$REPORT_TYPE" >> "$GITHUB_ENV"
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+
       - run: pip install -r requirements.txt
-      - name: Run tests
-        run: pytest -q
-      - name: Generate report
-        run: python main.py --report-type "$REPORT_TYPE"
+      - run: pytest -q
+      - run: python main.py --report-type "$REPORT_TYPE"
+
       - name: Commit generated reports
         shell: bash
         run: |
