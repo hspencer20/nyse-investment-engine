@@ -4,7 +4,7 @@ from config import MIN_ACTIONABLE_RR, WATCHLIST
 
 
 def validate_payload(payload: dict) -> None:
-    if payload.get("version") != "2.0.1":
+    if payload.get("version") != "2.0.2":
         raise ValueError("Unexpected report version")
     if payload.get("report_type") not in {"PRE_MARKET", "POST_MARKET"}:
         raise ValueError("Invalid report type")
