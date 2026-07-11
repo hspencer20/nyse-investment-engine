@@ -1,7 +1,7 @@
 # U.S. Equities Investment Committee Report
 
 **Report:** Post Market  
-**Generated:** 2026-07-11T12:42:51.328707-05:00  
+**Generated:** 2026-07-11T13:14:06.221138-05:00  
 **Market data:** 2026-07-10  
 **Horizon:** 3 months
 
@@ -31,7 +31,7 @@
 | 4 | KO | The Coca-Cola Company | Consumer Defensive | $83.49 | $91.25 | +$7.76 | +9.3% | 67.9% | Medium-High | 78.0 | Buy | Accumulate | Add on pullbacks. | Coca Cola (KO) Stock May Be 10% Below Fair Value Despite India IPO Plans Coca-Cola stock has deliver |
 | 5 | AMAT | Applied Materials, Inc. | Technology | $602.50 | $650.64 | +$48.14 | +8.0% | 67.9% | Medium | 77.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | US stocks end higher; chip surge offsets Iran worries <body><p>STORY: U.S. stocks closed higher on T |
 | 6 | BAC | Bank of America Corporation | Financial Services | $59.67 | $66.67 | +$7.00 | +11.7% | 67.6% | Medium-High | 77.5 | Buy | Accumulate | Add on pullbacks. | How To Earn $500 A Month From Bank of America Stock Ahead Of Q2 Earnings Ahead of Bank of America Co |
-| 7 | LLY | Eli Lilly and Company | Healthcare | $1,188.58 | $1,300.34 | +$111.76 | +9.4% | 67.2% | Medium | 76.8 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Zacks Investment Ideas feature highlights: XLV, XBI, LLY, EXEL, PTCT, FTRE and ILMN Biotech is gaini |
+| 7 | MA | Mastercard Incorporated | Financial Services | $526.74 | $612.56 | +$85.82 | +16.3% | 66.6% | Medium-High | 75.9 | Buy | Accumulate | Add on pullbacks. | Mastercard Stock Falls Below 200-Day SMA: Buy the Dip or Wait? MA slips below its 200-day SMA, but s |
 | 8 | AXP | American Express Company | Financial Services | $350.58 | $384.34 | +$33.76 | +9.6% | 66.3% | Medium | 75.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | American Express (AXP) Stock Looks Like A Bargain On Fair Value But Full On Earnings American Expres |
 | 9 | MS | Morgan Stanley | Financial Services | $222.28 | $235.96 | +$13.68 | +6.2% | 66.1% | Medium | 75.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Morgan Stanley says stock market rally faces $1.2 trillion question Investors came into July expecti |
 | 10 | DAL | Delta Air Lines, Inc. | Industrials | $87.39 | $97.85 | +$10.46 | +12.0% | 66.1% | Medium | 75.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | How to Play DAL Stock After Delta's Strong Q2 Earnings Results Delta Air Lines stock sinks despite m |
@@ -87,19 +87,19 @@
 |---|---|---|---:|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
 | PPG | PPG Industries, Inc. | Basic Materials | $116.76 | $125.75 | +$8.99 | +7.7% | 60.8% | Medium | 66.9 | $111.07 (-4.9%) | $123.51 (+5.8%) | 1.2:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | PPG Industries (PPG) Up 7.8% Since Last Earnings Report: Can It Continue? PPG Industries (PPG) repor | No material recent risk identified. |
 | CPA | Copa Holdings, S.A. | Industrials | $150.59 | $172.64 | +$22.05 | +14.6% | 69.4% | Medium | 80.3 | $142.18 (-5.6%) | $167.13 (+11.0%) | 2.0:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. Below general liquidity threshold. | Copa Holdings (CPA) Up 2.6% Since Last Earnings Report: Can It Continue? Copa Holdings (CPA) reporte | No material recent risk identified. |
-| AMD | Advanced Micro Devices, Inc. | Technology | $557.89 | $567.80 | +$9.91 | +1.8% | 60.7% | Medium | 66.7 | $507.68 (-9.0%) | $565.33 (+1.3%) | 0.1:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | AI Sent AMD Soaring — But This Stock May Be the Better Value Play Nvidia continues to deliver indust | No material recent risk identified. |
-| NVDA | NVIDIA Corporation | Technology | $210.96 | $260.36 | +$49.40 | +22.0% | 64.0% | Medium-High | 71.8 | $199.49 (-5.4%) | $244.71 (+16.0%) | 2.9:1 | Buy | Accumulate | Add on pullbacks. | Dow Jones Futures: Watch Nvidia, Micron, Sandisk, Robinhood As Market Sets Up; Big Earnings Due Taiw | No material recent risk identified. |
+| AMD | Advanced Micro Devices, Inc. | Technology | $557.89 | $562.70 | +$4.81 | +0.9% | 58.6% | Medium | 63.5 | $507.68 (-9.0%) | $563.47 (+1.0%) | 0.1:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | 5-star analyst sends AMD stock investors a warning Advanced Micro Devices (AMD) bulls were expecting |
+| NVDA | NVIDIA Corporation | Technology | $210.96 | $259.28 | +$48.32 | +22.0% | 62.8% | Medium-High | 70.0 | $199.49 (-5.4%) | $244.71 (+16.0%) | 2.9:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
 | QCOM | QUALCOMM Incorporated | Technology | $189.16 | $208.02 | +$18.86 | +10.0% | 57.6% | Medium | 61.9 | $172.14 (-9.0%) | $203.30 (+7.5%) | 0.8:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | How Investors Are Reacting To QUALCOMM (QCOM) Index Removal And New On-Device AI Deepfake Partnershi | No material recent risk identified. |
 
 ## Changes vs Previous Report
 
-**Long ranking changes recorded:** 22
+**Long ranking changes recorded:** 21
 
-**Short ranking changes recorded:** 21
+**Short ranking changes recorded:** 20
 
 ## Trading Signals
 
-**Buy / Accumulate:** V, LIN, KO, BAC, AVGO, JPM, AIG, GOOGL
+**Buy / Accumulate:** V, LIN, KO, BAC, MA, AVGO, JPM, AIG, GOOGL
 
 **Reduce / Sell:** None
 
