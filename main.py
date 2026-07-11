@@ -96,12 +96,35 @@ def main() -> None:
     markdown = build_markdown(payload)
 
     write_text(paths["latest_md"], markdown)
-    write_json(paths["latest_json"], payload)
-    write_text(paths["typed_md"], markdown)
-    write_json(paths["typed_json"], payload)
-    write_json(paths["history_json"], payload)
+write_json(paths["latest_json"], payload)
+write_text(paths["typed_md"], markdown)
+write_json(paths["typed_json"], payload)
+write_json(paths["history_json"], payload)
 
-    logging.info("Generated %s report", args.report_type)
+logging.info("==========================================")
+logging.info("NYSE Investment Engine v2.0.2")
+logging.info("Report Type     : %s", args.report_type)
+logging.info("Market Date     : %s", payload["market_data_dates"][0])
+logging.info(
+    "Universe        : %s eligible (%s total)",
+    payload["universe"]["eligible_equities_analyzed"],
+    payload["universe"]["total_records_including_watchlist_exceptions"],
+)
+logging.info(
+    "Top Long        : %s (%.1f)",
+    payload["market_snapshot"]["highest_combined_score"]["ticker"],
+    payload["market_snapshot"]["highest_combined_score"]["score"],
+)
+logging.info(
+    "Top Short       : %s (%.1f)",
+    payload["market_snapshot"]["lowest_combined_score"]["ticker"],
+    payload["market_snapshot"]["lowest_combined_score"]["score"],
+)
+logging.info("Output          : JSON + Markdown")
+logging.info("Status          : SUCCESS")
+logging.info("==========================================")
+
+logging.info("Generated %s report", args.report_type)
 
 
 if __name__ == "__main__":
