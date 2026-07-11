@@ -1,31 +1,4 @@
 {
-  "version": "2.0.1",
-  "files": [
-    ".github/workflows/daily-report.yml",
-    ".gitignore",
-    "README.md",
-    "VERSION.json",
-    "analyst_engine.py",
-    "company_engine.py",
-    "config.py",
-    "data_source.py",
-    "decision_engine.py",
-    "event_engine.py",
-    "fundamental_engine.py",
-    "indicators.py",
-    "main.py",
-    "pytest.ini",
-    "report.py",
-    "reports/.gitkeep",
-    "reports/history/.gitkeep",
-    "requirements.txt",
-    "risk_engine.py",
-    "storage.py",
-    "technical_engine.py",
-    "tests/test_decision_engine.py",
-    "tests/test_engines.py",
-    "tests/test_event_relevance.py",
-    "validation.py"
-  ],
-  "validation": "tests and syntax passed"
+  "version": "2.0.2-hotfix",
+  "purpose": "Fix missing _rank_changes and preserve full report generation"
 }
