@@ -19,7 +19,7 @@ MIN_ACTIONABLE_RR = 2.0
 
 REPORT_DIR = "reports"
 HISTORY_DIR = "reports/history"
-TIMEZONE = "America/Panama"
+TIMEZONE = "America/New_York"
 
 RECENT_NEWS_DAYS = 45
 MAX_NEWS_ITEMS = 16
