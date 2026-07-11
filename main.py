@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 
 from analyst_engine import analyst_score
+from company_engine import company_profile
 from config import (
     HISTORY_DIR, HISTORY_PERIOD, MIN_AVG_VOLUME, MIN_PRICE,
     REPORT_DIR, TIMEZONE, UNIVERSE, WATCHLIST,
@@ -21,13 +22,14 @@ from report import build_markdown, build_payload
 from risk_engine import risk_score
 from storage import read_json, report_paths, write_json, write_text
 from technical_engine import technical_score
+from validation import validate_payload
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
-def parse_args():
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--report-type", choices=["PRE_MARKET", "POST_MARKET"], default="PRE_MARKET")
+    parser.add_argument("--report-type", choices=["PRE_MARKET", "POST_MARKET"], required=True)
     return parser.parse_args()
 
 
@@ -44,16 +46,17 @@ def analyze_ticker(ticker: str, watchlist_exception: bool = False) -> dict:
         raise ValueError("Liquidity below threshold")
 
     stock = get_ticker(ticker)
-
+    profile = company_profile(stock, ticker)
     technical = technical_score(metrics)
     fundamental = fundamental_score(stock, float(metrics["last"]))
-    events = event_score(stock)
+    events = event_score(stock, ticker, profile["company_aliases"])
     analyst = analyst_score(stock, float(metrics["last"]))
     risk = risk_score(metrics, fundamental)
     final = finalize_decision(technical, fundamental, events, analyst, risk, metrics)
 
     return {
         "ticker": ticker,
+        **profile,
         **metrics,
         **technical,
         **fundamental,
@@ -66,16 +69,16 @@ def analyze_ticker(ticker: str, watchlist_exception: bool = False) -> dict:
     }
 
 
-def main():
+def main() -> None:
     args = parse_args()
     generated_at = datetime.now(ZoneInfo(TIMEZONE))
     paths = report_paths(REPORT_DIR, HISTORY_DIR, args.report_type, generated_at)
     previous_payload = read_json(paths["typed_json"])
-    rows = []
 
+    rows = []
     for ticker in dict.fromkeys(UNIVERSE + WATCHLIST):
         try:
-            rows.append(analyze_ticker(ticker, watchlist_exception=ticker in WATCHLIST))
+            rows.append(analyze_ticker(ticker, ticker in WATCHLIST))
             logging.info("Analyzed %s", ticker)
         except Exception as exc:
             logging.warning("Skipped %s: %s", ticker, exc)
@@ -84,11 +87,12 @@ def main():
         raise RuntimeError("No valid equities were analyzed")
 
     results = pd.DataFrame(rows)
-    missing = sorted(set(WATCHLIST).difference(results["ticker"]))
-    if missing:
-        raise RuntimeError(f"Strategic Watchlist tickers missing: {missing}")
+    missing_watchlist = sorted(set(WATCHLIST).difference(results["ticker"]))
+    if missing_watchlist:
+        raise RuntimeError(f"Strategic Watchlist tickers missing: {missing_watchlist}")
 
     payload = build_payload(results, WATCHLIST, generated_at, args.report_type, previous_payload)
+    validate_payload(payload)
     markdown = build_markdown(payload)
 
     write_text(paths["latest_md"], markdown)

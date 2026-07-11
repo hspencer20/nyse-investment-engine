@@ -16,7 +16,7 @@ def pct(value: float) -> str:
 
 def _record(row: pd.Series) -> dict[str, Any]:
     return {
-        "ticker": row["ticker"],
+        "ticker": row["ticker"], "company": row["company"], "sector": row["sector"],
         "data_date": row["data_date"],
         "last": round(float(row["last"]), 4),
         "target_3m": round(float(row["target"]), 4),
@@ -66,7 +66,7 @@ def build_payload(results: pd.DataFrame, watchlist: list[str], generated_at, rep
     watch_records = [_record(row) for _, row in strategic.iterrows()]
 
     return {
-        "version": "2.0",
+        "version": "2.0.1",
         "generated_at": generated_at.isoformat(),
         "report_type": report_type,
         "market_data_dates": sorted(set(results["data_date"].astype(str).tolist())),
@@ -91,6 +91,10 @@ def build_payload(results: pd.DataFrame, watchlist: list[str], generated_at, rep
         "highest_conviction_shorts": short_records[:5],
         "short_top_20": short_records,
         "strategic_watchlist": watch_records,
+        "changes": {
+            "long_rank_changes": _rank_changes(long_records, previous_payload.get("long_top_20") if previous_payload else None),
+            "short_rank_changes": _rank_changes(short_records, previous_payload.get("short_top_20") if previous_payload else None),
+        },
         "trading_signals": {
             "buy_accumulate": [i["ticker"] for i in long_records if i["actionable"] and i["direction"] == "long"][:10],
             "reduce_sell": [i["ticker"] for i in short_records if i["actionable"] and i["direction"] == "short"][:10],

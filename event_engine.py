@@ -5,37 +5,15 @@ from typing import Any
 
 from config import MAX_NEWS_ITEMS, RECENT_NEWS_DAYS
 
-
 EVENT_WEIGHTS = {
-    "earnings": 8,
-    "guidance": 9,
-    "investor day": 8,
-    "contract": 7,
-    "partnership": 6,
-    "acquisition": 7,
-    "merger": 7,
-    "buyback": 5,
-    "repurchase": 5,
-    "approval": 6,
-    "launch": 4,
-    "upgrade": 5,
-    "downgrade": -5,
-    "price target raised": 4,
-    "price target cut": -4,
-    "lawsuit": -5,
-    "investigation": -6,
-    "probe": -6,
-    "recall": -7,
-    "regulatory": -5,
-    "delay": -5,
-    "warning": -6,
-    "miss": -6,
-    "beat": 6,
-    "raises": 5,
-    "cuts": -5,
-    "record": 4,
-    "strong": 3,
-    "weak": -3,
+    "earnings": 8, "guidance": 9, "investor day": 8, "contract": 7,
+    "partnership": 6, "acquisition": 7, "merger": 7, "buyback": 5,
+    "repurchase": 5, "approval": 6, "launch": 4, "upgrade": 5,
+    "downgrade": -5, "price target raised": 4, "price target cut": -4,
+    "lawsuit": -5, "investigation": -6, "probe": -6, "recall": -7,
+    "regulatory": -5, "delay": -5, "warning": -6, "miss": -6,
+    "beat": 6, "raises": 5, "cuts": -5, "record": 4,
+    "strong": 3, "weak": -3,
 }
 
 
@@ -80,10 +58,22 @@ def published_at(item: dict[str, Any]) -> datetime | None:
     return None
 
 
-def event_score(stock) -> dict:
+def is_relevant(text: str, ticker: str, aliases: list[str]) -> bool:
+    lower = text.lower()
+    if ticker.lower() in lower:
+        return True
+    ignored = {"inc", "inc.", "corp", "corporation", "company", "holdings", "group"}
+    for alias in aliases:
+        normalized = alias.lower().strip(" ,.")
+        if len(normalized) >= 4 and normalized not in ignored and normalized in lower:
+            return True
+    return False
+
+
+def event_score(stock, ticker: str, aliases: list[str]) -> dict:
     items = safe_news(stock)
     cutoff = datetime.now(timezone.utc) - timedelta(days=RECENT_NEWS_DAYS)
-    scored = []
+    scored: list[tuple[int, str]] = []
 
     for item in items[:MAX_NEWS_ITEMS]:
         dt = published_at(item)
@@ -93,10 +83,12 @@ def event_score(stock) -> dict:
             continue
 
         text = headline_text(item)
+        if not text or not is_relevant(text, ticker, aliases):
+            continue
+
         lower = text.lower()
-        score = sum(weight for term, weight in EVENT_WEIGHTS.items() if term in lower)
-        if text:
-            scored.append((score, text[:240]))
+        item_score = sum(weight for term, weight in EVENT_WEIGHTS.items() if term in lower)
+        scored.append((item_score, text[:240]))
 
     if not scored:
         return {
@@ -104,6 +96,7 @@ def event_score(stock) -> dict:
             "recent_catalyst": "No material recent catalyst identified.",
             "recent_risk": "No material recent risk identified.",
             "event_bias": "Neutral",
+            "news_items_used": 0,
         }
 
     net = sum(item[0] for item in scored)
@@ -116,4 +109,5 @@ def event_score(stock) -> dict:
         "recent_catalyst": bullish[1] if bullish[0] > 0 else "No material recent catalyst identified.",
         "recent_risk": bearish[1] if bearish[0] < 0 else "No material recent risk identified.",
         "event_bias": "Bullish" if score >= 60 else "Bearish" if score <= 40 else "Neutral",
+        "news_items_used": len(scored),
     }

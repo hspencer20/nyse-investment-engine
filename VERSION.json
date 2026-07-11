@@ -1,26 +1,12 @@
 {
-  "version": "2.0",
+  "version": "2.0.1",
   "files": [
     ".github/workflows/daily-report.yml",
     ".gitignore",
-    ".pytest_cache/.gitignore",
-    ".pytest_cache/CACHEDIR.TAG",
-    ".pytest_cache/README.md",
-    ".pytest_cache/v/cache/nodeids",
     "README.md",
-    "__pycache__/analyst_engine.cpython-313.pyc",
-    "__pycache__/config.cpython-313.pyc",
-    "__pycache__/data_source.cpython-313.pyc",
-    "__pycache__/decision_engine.cpython-313.pyc",
-    "__pycache__/event_engine.cpython-313.pyc",
-    "__pycache__/fundamental_engine.cpython-313.pyc",
-    "__pycache__/indicators.cpython-313.pyc",
-    "__pycache__/main.cpython-313.pyc",
-    "__pycache__/report.cpython-313.pyc",
-    "__pycache__/risk_engine.cpython-313.pyc",
-    "__pycache__/storage.cpython-313.pyc",
-    "__pycache__/technical_engine.cpython-313.pyc",
+    "VERSION.json",
     "analyst_engine.py",
+    "company_engine.py",
     "config.py",
     "data_source.py",
     "decision_engine.py",
@@ -36,15 +22,10 @@
     "risk_engine.py",
     "storage.py",
     "technical_engine.py",
-    "tests/__pycache__/test_decision_engine.cpython-313-pytest-9.0.2.pyc",
-    "tests/__pycache__/test_decision_engine.cpython-313.pyc",
-    "tests/__pycache__/test_engines.cpython-313-pytest-9.0.2.pyc",
-    "tests/__pycache__/test_engines.cpython-313.pyc",
     "tests/test_decision_engine.py",
-    "tests/test_engines.py"
+    "tests/test_engines.py",
+    "tests/test_event_relevance.py",
+    "validation.py"
   ],
-  "validation": {
-    "python_syntax": "passed",
-    "unit_tests": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                     [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m4 passed\u001b[0m\u001b[32m in 0.58s\u001b[0m\u001b[0m"
-  }
+  "validation": "tests and syntax passed"
 }
