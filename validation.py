@@ -19,7 +19,7 @@ def validate_payload(payload: dict) -> None:
 
     required = {
         "ticker", "company", "sector", "last", "target_3m", "change_dollar",
-        "change_percent", "confidence", "final_score", "stop_loss",
+        "change_percent", "confidence", "combined_score", "stop_loss",
         "stop_loss_percent", "take_profit", "take_profit_percent",
         "risk_reward", "recommendation", "position_status", "action",
         "recent_catalyst", "recent_risk",
