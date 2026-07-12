@@ -21,7 +21,7 @@ REPORT_DIR = "reports"
 HISTORY_DIR = "reports/history"
 TIMEZONE = "America/New_York"
 
-RECENT_NEWS_DAYS = 45
+RECENT_NEWS_DAYS = 4
 MAX_NEWS_ITEMS = 16
 
 WEIGHTS = {
