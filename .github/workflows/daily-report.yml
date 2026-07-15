@@ -13,17 +13,13 @@ on:
           - POST_MARKET
 
   schedule:
-    # PRE_MARKET at 8:45 a.m. New York time
-    # 12:45 UTC while New York is on daylight saving time (EDT)
-    - cron: "45 12 * * 1-5"
-    # 13:45 UTC while New York is on standard time (EST)
-    - cron: "45 13 * * 1-5"
+    # 1 hora 45 minutos antes de la apertura de las 9:30 a. m. de Nueva York
+    - cron: "45 7 * * 1-5"
+      timezone: "America/New_York"
 
-    # POST_MARKET at 4:15 p.m. New York time
-    # 20:15 UTC while New York is on daylight saving time (EDT)
-    - cron: "15 20 * * 1-5"
-    # 21:15 UTC while New York is on standard time (EST)
-    - cron: "15 21 * * 1-5"
+    # 45 minutos después del cierre de las 4:00 p. m. de Nueva York
+    - cron: "45 16 * * 1-5"
+      timezone: "America/New_York"
 
 permissions:
   contents: write
@@ -38,68 +34,44 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Determine report schedule
-        id: schedule
+      - name: Determine report type
         shell: bash
         run: |
-          SHOULD_RUN="false"
-          REPORT_TYPE=""
-
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             REPORT_TYPE="${{ inputs.report_type }}"
-            SHOULD_RUN="true"
+          elif [[ "${{ github.event.schedule }}" == "45 7 * * 1-5" ]]; then
+            REPORT_TYPE="PRE_MARKET"
+          elif [[ "${{ github.event.schedule }}" == "45 16 * * 1-5" ]]; then
+            REPORT_TYPE="POST_MARKET"
           else
-            NY_OFFSET="$(TZ=America/New_York date +%z)"
-            TRIGGER="${{ github.event.schedule }}"
-
-            if [[ "$TRIGGER" == "45 12 * * 1-5" && "$NY_OFFSET" == "-0400" ]]; then
-              REPORT_TYPE="PRE_MARKET"
-              SHOULD_RUN="true"
-            elif [[ "$TRIGGER" == "45 13 * * 1-5" && "$NY_OFFSET" == "-0500" ]]; then
-              REPORT_TYPE="PRE_MARKET"
-              SHOULD_RUN="true"
-            elif [[ "$TRIGGER" == "15 20 * * 1-5" && "$NY_OFFSET" == "-0400" ]]; then
-              REPORT_TYPE="POST_MARKET"
-              SHOULD_RUN="true"
-            elif [[ "$TRIGGER" == "15 21 * * 1-5" && "$NY_OFFSET" == "-0500" ]]; then
-              REPORT_TYPE="POST_MARKET"
-              SHOULD_RUN="true"
-            fi
+            echo "Unable to determine report type."
+            exit 1
           fi
 
           echo "REPORT_TYPE=$REPORT_TYPE" >> "$GITHUB_ENV"
-          echo "SHOULD_RUN=$SHOULD_RUN" >> "$GITHUB_ENV"
-          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
-
           echo "New York time: $(TZ=America/New_York date)"
-          echo "New York UTC offset: $(TZ=America/New_York date +%z)"
           echo "Scheduled trigger: ${{ github.event.schedule }}"
-          echo "Report type: ${REPORT_TYPE:-NONE}"
-          echo "Should run: $SHOULD_RUN"
+          echo "Report type: $REPORT_TYPE"
 
-      - uses: actions/checkout@v4
-        if: steps.schedule.outputs.should_run == 'true'
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        if: steps.schedule.outputs.should_run == 'true'
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Install dependencies
-        if: steps.schedule.outputs.should_run == 'true'
         run: pip install -r requirements.txt
 
       - name: Run tests
-        if: steps.schedule.outputs.should_run == 'true'
         run: pytest -q
 
       - name: Generate investment report
-        if: steps.schedule.outputs.should_run == 'true'
         run: python main.py --report-type "$REPORT_TYPE"
 
       - name: Commit generated reports
-        if: steps.schedule.outputs.should_run == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
