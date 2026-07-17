@@ -1,105 +1,105 @@
 # U.S. Equities Investment Committee Report
 
 **Report:** Post Market  
-**Generated:** 2026-07-16T19:44:00.245494-04:00  
-**Market data:** 2026-07-16  
+**Generated:** 2026-07-17T19:37:33.031406-04:00  
+**Market data:** 2026-07-17  
 **Horizon:** 3 months
 
 ## Market Snapshot
 
 - Eligible equities analyzed: **67**
-- Highest Combined Score: **V (84.3)**
-- Lowest Combined Score: **ORCL (42.6)**
+- Highest Combined Score: **V (84.5)**
+- Lowest Combined Score: **PEP (42.8)**
 
 ## Highest Conviction Long Ideas
 
 | # | Ticker | Company | Sector | Last | Target 3M | Potential | Prob. Up | Confidence | Score | Stop Loss | Take Profit | R/R | Recommendation | Position Status | Action | Recent Catalyst | Principal Risk |
 |---:|---|---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
-| 1 | V | Visa Inc. | Financial Services | $365.14 | $415.46 | +$50.32 (+13.8%) | 72.0% | High | 84.3 | $351.79 (-3.7%) | $402.88 (+10.3%) | 2.8:1 | Strong Buy | Increase | Accumulate in stages. | PayPal Deal Buzz: Can New Owners Fix Profitability Pressure? PYPL faces a $53B+ takeover bid from St | No material recent risk identified. |
-| 2 | BAC | Bank of America Corporation | Financial Services | $61.49 | $69.67 | +$8.18 (+13.3%) | 71.4% | High | 83.4 | $59.50 (-3.2%) | $67.62 (+10.0%) | 3.1:1 | Strong Buy | Increase | Accumulate in stages. | Cintas upgraded by Bank of America after earnings beat and stronger outlook Cintas Corporation (NASD | No material recent risk identified. |
-| 3 | JPM | JPMorgan Chase & Co. | Financial Services | $343.15 | $382.60 | +$39.45 (+11.5%) | 70.1% | Medium-High | 81.4 | $330.70 (-3.6%) | $372.74 (+8.6%) | 2.4:1 | Buy | Accumulate | Add on pullbacks. | Jamie Dimon's JPMorgan Chase Just Posted 86% Growth in Equities Trading Revenue and Raised Its Full- | No material recent risk identified. |
-| 4 | AAPL | Apple Inc. | Technology | $333.26 | $353.60 | +$20.34 (+6.1%) | 68.4% | Medium | 78.7 | $319.99 (-4.0%) | $348.51 (+4.6%) | 1.1:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Alibaba Jumps 7.9% as Apple Intelligence Approval Revives China Tech Rally China approves Apple Inte | No material recent risk identified. |
-| 5 | GS | The Goldman Sachs Group, Inc. | Financial Services | $1,095.46 | $1,178.45 | +$82.99 (+7.6%) | 67.4% | Medium | 77.2 | $1,036.46 (-5.4%) | $1,157.70 (+5.7%) | 1.1:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Bank Of America's Earnings Were Great, But Its New Guidance Is The Real Story The banking giant just | No material recent risk identified. |
+| 1 | V | V | Financial Services | $358.56 | $411.07 | +$52.51 (+14.6%) | 72.1% | High | 84.5 | $345.23 (-3.7%) | $397.94 (+11.0%) | 3.0:1 | Strong Buy | Increase | Accumulate in stages. | 'Durable' stocks Visa, Aon 'have legs' amid AI jitters, expert says <body><p>STORY: A selloff of hig | Circle Gets Street-Low Target as Stablecoin Competition Heats Up (Bloomberg) -- Circle Internet Grou |
+| 2 | JPM | JPM | Financial Services | $341.10 | $381.09 | +$39.99 (+11.7%) | 70.0% | Medium-High | 81.3 | $328.27 (-3.8%) | $371.09 (+8.8%) | 2.3:1 | Buy | Accumulate | Add on pullbacks. | JPMorgan upgrades 3M, Emerson Electric to Overweight ahead of earnings Investing.com -- JPMorgan upg | JPMorgan sexual harassment lawsuit dismissed, refiling expected NEW YORK, July 17 (Reuters) - A New  |
+| 3 | AAPL | Apple Inc. | Technology | $333.74 | $355.45 | +$21.71 (+6.5%) | 69.4% | Medium | 80.3 | $320.73 (-3.9%) | $350.02 (+4.9%) | 1.2:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | S&P 500, Nasdaq Slide Sharply As Netflix Guidance Disappoints And Chip Stocks Extend Losses — NFLX,  | No material recent risk identified. |
+| 4 | BAC | BAC | Financial Services | $61.27 | $68.60 | +$7.33 (+12.0%) | 68.0% | Medium-High | 78.2 | $59.26 (-3.3%) | $66.77 (+9.0%) | 2.7:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
+| 5 | GS | GS | Financial Services | $1,065.22 | $1,158.56 | +$93.34 (+8.8%) | 67.5% | Medium | 77.4 | $1,004.92 (-5.7%) | $1,135.23 (+6.6%) | 1.2:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Goldman Sachs CEO Says AI Boom Is Still in the ‘Early Innings' Goldman Sachs Group Inc. stock rose o | No material recent risk identified. |
 
 ## Top 20 Appreciation Opportunities
 
 | # | Ticker | Company | Sector | Last | Target 3M | Δ $ | Δ % | Prob. Up | Confidence | Score | Recommendation | Position Status | Action | Recent Catalyst / Risk |
 |---:|---|---|---|---:|---:|---:|---:|---:|---|---:|---|---|---|---|
-| 1 | V | Visa Inc. | Financial Services | $365.14 | $415.46 | +$50.32 | +13.8% | 72.0% | High | 84.3 | Strong Buy | Increase | Accumulate in stages. | PayPal Deal Buzz: Can New Owners Fix Profitability Pressure? PYPL faces a $53B+ takeover bid from St |
-| 2 | BAC | Bank of America Corporation | Financial Services | $61.49 | $69.67 | +$8.18 | +13.3% | 71.4% | High | 83.4 | Strong Buy | Increase | Accumulate in stages. | Cintas upgraded by Bank of America after earnings beat and stronger outlook Cintas Corporation (NASD |
-| 3 | JPM | JPMorgan Chase & Co. | Financial Services | $343.15 | $382.60 | +$39.45 | +11.5% | 70.1% | Medium-High | 81.4 | Buy | Accumulate | Add on pullbacks. | Jamie Dimon's JPMorgan Chase Just Posted 86% Growth in Equities Trading Revenue and Raised Its Full- |
-| 4 | AAPL | Apple Inc. | Technology | $333.26 | $353.60 | +$20.34 | +6.1% | 68.4% | Medium | 78.7 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Alibaba Jumps 7.9% as Apple Intelligence Approval Revives China Tech Rally China approves Apple Inte |
-| 5 | GS | The Goldman Sachs Group, Inc. | Financial Services | $1,095.46 | $1,178.45 | +$82.99 | +7.6% | 67.4% | Medium | 77.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Bank Of America's Earnings Were Great, But Its New Guidance Is The Real Story The banking giant just |
-| 6 | KO | The Coca-Cola Company | Consumer Defensive | $84.92 | $92.32 | +$7.40 | +8.7% | 67.2% | Medium-High | 76.9 | Buy | Accumulate | Add on pullbacks. | Coca-Cola (KO) Unveils a World Cup Strategy That Goes Beyond the Beverage With 76 hedge funds holdin |
-| 7 | AMAT | Applied Materials, Inc. | Technology | $560.93 | $628.57 | +$67.64 | +12.1% | 67.1% | Medium | 76.7 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Applied Materials (AMAT) Stock Looks Above Fair Value Even As Earnings Look About Right After a very |
-| 8 | WFC | Wells Fargo & Company | Financial Services | $88.07 | $98.83 | +$10.76 | +12.2% | 66.8% | Medium-High | 76.2 | Buy | Accumulate | Add on pullbacks. | Zacks Earnings Trends Highlights: Micron, JPMorgan, Bank of America, Citigroup and Wells Fargo Micro |
-| 9 | LLY | Eli Lilly and Company | Healthcare | $1,169.17 | $1,295.50 | +$126.33 | +10.8% | 66.4% | Medium | 75.7 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Stock Market Today, July 16: AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3.8 Billion To |
-| 10 | ABBV | AbbVie Inc. | Healthcare | $254.39 | $277.72 | +$23.33 | +9.2% | 66.3% | Medium | 75.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Will AbbVie's Neuroscience Franchise Deliver Another Strong Quarter? ABBV's neuroscience business is |
-| 11 | UNH | UnitedHealth Group Incorporated | Healthcare | $423.38 | $457.22 | +$33.84 | +8.0% | 64.8% | Medium | 73.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | UnitedHealth Jumps 10.3% After Raising 2026 EPS Outlook Above Estimates Stronger medical costs and b |
-| 12 | MRK | Merck & Co., Inc. | Healthcare | $127.63 | $138.04 | +$10.41 | +8.2% | 64.7% | Medium | 72.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Merck Snags A First-Of-Its-Kind Approval, And Shares Jump Merck snagged the first-ever approval for  |
-| 13 | GOOGL | Alphabet Inc. | Communication Services | $354.46 | $407.85 | +$53.39 | +15.1% | 64.2% | Medium-High | 72.2 | Buy | Accumulate | Add on pullbacks. | Alphabet could crush estimates on Cloud strength, Anthropic windfall: BofA Alphabet Inc (NASDAQ:GOOG |
-| 14 | KLAC | KLA Corporation | Technology | $219.37 | $238.45 | +$19.08 | +8.7% | 64.1% | Medium | 72.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Teradyne vs. KLAC: Which AI Infrastructure Stock Is the Better Buy? TER's AI-driven chip testing gro |
-| 15 | META | Meta Platforms, Inc. | Communication Services | $664.54 | $770.96 | +$106.42 | +16.0% | 64.0% | Medium | 71.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Meta's stock buybacks: How the company's AI spending could affect shareholder returns For years, Met |
-| 16 | DAL | Delta Air Lines, Inc. | Industrials | $86.70 | $99.65 | +$12.95 | +14.9% | 64.0% | Medium-High | 71.9 | Buy | Accumulate | Add on pullbacks. | JBHT Q2 Earnings Beat on Intermodal Growth and Cost Discipline J.B. Hunt's Q2 earnings beat estimate |
-| 17 | MU | Micron Technology, Inc. | Technology | $853.20 | $1,160.89 | +$307.69 | +22.0% | 64.0% | Medium | 71.8 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Why Micron (MU) Stock Is Down Today Shares of memory chips maker Micron (NASDAQ:MU) fell 5.7% in the |
-| 18 | AXP | American Express Company | Financial Services | $361.57 | $389.44 | +$27.87 | +7.7% | 64.0% | Medium | 71.8 | Hold / Watch | Maintain | Maintain; await a stronger entry. | The 1 Simple Reason to Buy American Express Before July 24 Earnings American Express reports earning |
-| 19 | UAL | United Airlines Holdings, Inc. | Industrials | $118.81 | $140.71 | +$21.90 | +18.4% | 64.0% | Medium-High | 71.8 | Buy | Accumulate | Add on pullbacks. | United Airlines Beats Earnings Expectations, Raises Guidance, but Warns of Fuel Costs The carrier's  |
-| 20 | MS | Morgan Stanley | Financial Services | $218.37 | $234.11 | +$15.74 | +7.2% | 63.7% | Medium | 71.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Morgan Stanley Q2 Earnings Call Flags Wealth, AI & Capital Strength MS' Q2 2026 results spotlight re |
+| 1 | V | V | Financial Services | $358.56 | $411.07 | +$52.51 | +14.6% | 72.1% | High | 84.5 | Strong Buy | Increase | Accumulate in stages. | 'Durable' stocks Visa, Aon 'have legs' amid AI jitters, expert says <body><p>STORY: A selloff of hig |
+| 2 | JPM | JPM | Financial Services | $341.10 | $381.09 | +$39.99 | +11.7% | 70.0% | Medium-High | 81.3 | Buy | Accumulate | Add on pullbacks. | JPMorgan upgrades 3M, Emerson Electric to Overweight ahead of earnings Investing.com -- JPMorgan upg |
+| 3 | AAPL | Apple Inc. | Technology | $333.74 | $355.45 | +$21.71 | +6.5% | 69.4% | Medium | 80.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | S&P 500, Nasdaq Slide Sharply As Netflix Guidance Disappoints And Chip Stocks Extend Losses — NFLX,  |
+| 4 | BAC | BAC | Financial Services | $61.27 | $68.60 | +$7.33 | +12.0% | 68.0% | Medium-High | 78.2 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 5 | GS | GS | Financial Services | $1,065.22 | $1,158.56 | +$93.34 | +8.8% | 67.5% | Medium | 77.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Goldman Sachs CEO Says AI Boom Is Still in the ‘Early Innings' Goldman Sachs Group Inc. stock rose o |
+| 6 | META | Meta Platforms, Inc. | Communication Services | $646.01 | $765.51 | +$119.50 | +18.5% | 66.4% | Medium-High | 75.6 | Buy | Accumulate | Add on pullbacks. | I Can’t Stop Buying Meta’s Upward Surge for These 3 Reasons Meta keeps printing cash at a scale most |
+| 7 | ABBV | AbbVie Inc. | Healthcare | $254.49 | $277.79 | +$23.30 | +9.2% | 66.3% | Medium | 75.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Will AbbVie's Neuroscience Franchise Deliver Another Strong Quarter? ABBV's neuroscience business is |
+| 8 | AMAT | Applied Materials, Inc. | Technology | $529.66 | $605.00 | +$75.34 | +14.2% | 66.1% | Medium | 75.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Applied Materials (AMAT) Stock Looks Above Fair Value Even As Earnings Look About Right After a very |
+| 9 | LLY | LLY | Healthcare | $1,179.11 | $1,297.14 | +$118.03 | +10.0% | 65.5% | Medium | 74.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 10 | JNJ | Johnson & Johnson | Healthcare | $253.04 | $275.69 | +$22.65 | +8.9% | 65.0% | Medium | 73.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | J&J Stock Falls Despite Strong Q2 Beat & Higher 2026 View: Here's Why JNJ beats Q2 estimates and rai |
+| 11 | UNH | UnitedHealth Group Incorporated | Healthcare | $426.09 | $459.02 | +$32.93 | +7.7% | 64.8% | Medium | 73.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | UnitedHealth (UNH) Q2 2026 Earnings Call Transcript CEO Hemsley reports 55% operating earnings growt |
+| 12 | NVDA | NVIDIA Corporation | Technology | $202.81 | $255.63 | +$52.82 | +22.0% | 64.5% | Medium-High | 72.7 | Buy | Accumulate | Add on pullbacks. | Dell Technologies vs. NVIDIA: Which Artificial Intelligence Stock Is a Better Buy in 2026? Dell's $8 |
+| 13 | MRK | MRK | Healthcare | $127.50 | $137.81 | +$10.31 | +8.1% | 64.4% | Medium | 72.5 | Hold / Watch | Maintain | Maintain; await a stronger entry. | New Cholesterol Pill, Earnings Growth Boost Merck Shares Shares of Merck & Co., Inc. (MRK) rise 3,45 |
+| 14 | WFC | Wells Fargo & Company | Financial Services | $87.51 | $97.47 | +$9.96 | +11.4% | 64.3% | Medium-High | 72.3 | Buy | Accumulate | Add on pullbacks. | Wells Fargo CEO Says America Is Still Spending Big—Even With Inflation Concerns Wells Fargo & Compan |
+| 15 | GE | GE | Industrials | $348.83 | $385.22 | +$36.39 | +10.4% | 64.3% | Medium | 72.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | GE Aerospace (GE) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and Raised Guidance ... GE |
+| 16 | DAL | DAL | Industrials | $84.17 | $98.03 | +$13.86 | +16.5% | 64.1% | Medium-High | 72.1 | Buy | Accumulate | Add on pullbacks. | JBHT Q2 Earnings Beat on Intermodal Growth and Cost Discipline J.B. Hunt's Q2 earnings beat estimate |
+| 17 | MA | MA | Financial Services | $543.60 | $617.56 | +$73.96 | +13.6% | 64.0% | Medium-High | 71.8 | Buy | Accumulate | Add on pullbacks. | Can Visa Stock Compound Its Way Higher? Visa (V) trades at $365.14 per share on a $660.2B market cap |
+| 18 | TOST | Toast, Inc. | Technology | $30.08 | $33.69 | +$3.61 | +12.0% | 63.8% | Medium | 71.6 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Toast’s Comeback Story Is Getting Harder for Wall Street to Ignore Toast shares rallied as Goldman S |
+| 19 | PSX | Phillips 66 | Energy | $206.86 | $216.02 | +$9.16 | +4.4% | 63.6% | Medium | 71.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Phillips 66 (PSX) Stock May Trade At A Discount As Crude Tensions Rise After a strong five year run  |
+| 20 | AIG | AIG | Financial Services | $80.50 | $88.45 | +$7.95 | +9.9% | 63.4% | Medium-High | 70.9 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
 
 ## Highest Conviction Short Ideas
 
 | # | Ticker | Company | Sector | Last | Target 3M | Potential | Prob. Down | Confidence | Score | Stop Loss | Take Profit | R/R | Recommendation | Position Status | Action | Recent Catalyst | Principal Risk |
 |---:|---|---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
-| 1 | ORCL | Oracle Corporation | Technology | $124.21 | $172.64 | +$48.43 (+22.0%) | 54.7% | Medium | 42.6 | $113.03 (-9.0%) | $144.08 (+16.0%) | 1.8:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
-| 2 | NCLH | Norwegian Cruise Line Holdings Ltd. | Consumer Cyclical | $19.61 | $20.14 | +$0.53 (+2.7%) | 53.6% | Medium | 44.4 | $18.21 (-7.1%) | $20.01 (+2.0%) | 0.3:1 | Hold | Maintain | Maintain existing exposure. | Norwegian Cruise Line (NCLH) Stock May Be Cheap As Fuel Relief Lifts Interest Norwegian Cruise Line  | Can Norwegian Cruise Line (NCLH) Align Premium Branding With Recent Baltic Refunds And Operational S |
-| 3 | LOW | Lowe's Companies, Inc. | Consumer Cyclical | $216.16 | $232.59 | +$16.43 (+7.6%) | 52.7% | Medium | 45.8 | $206.78 (-4.3%) | $228.48 (+5.7%) | 1.3:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
-| 4 | PEP | PepsiCo, Inc. | Consumer Defensive | $139.43 | $144.63 | +$5.20 (+3.7%) | 52.1% | Medium | 46.7 | $133.63 (-4.2%) | $143.33 (+2.8%) | 0.7:1 | Hold | Maintain | Maintain existing exposure. | Will Mixed Q2 Results and Circle K Tie-Up Change PepsiCo's (PEP) North America Profit Play? In the p | PepsiCo improves sustainable sourcing, delays emissions reporting The company reported a four percen |
-| 5 | BA | The Boeing Company | Industrials | $214.34 | $234.80 | +$20.46 (+9.5%) | 51.9% | Medium-Low | 47.0 | $204.50 (-4.6%) | $229.68 (+7.2%) | 1.6:1 | Hold | Maintain | Maintain existing exposure. | Aerospace Stocks Q1 Highlights: Boeing (NYSE:BA) As the Q1 earnings season wraps, let’s dig into thi | Market Chatter: Boeing Nears Certification of 737 Max 7; Advances Max 10, 777X programs Boeing (BA)  |
+| 1 | PEP | PepsiCo, Inc. | Consumer Defensive | $137.12 | $141.74 | +$4.62 (+3.4%) | 54.6% | Medium | 42.8 | $131.08 (-4.4%) | $140.59 (+2.5%) | 0.6:1 | Hold | Maintain | Maintain existing exposure. | Where Analysts Pushed Back On PEP Stock's Latest Earnings Call PepsiCo management spent its latest e | PepsiCo improves sustainable sourcing, delays emissions reporting The company reported a four percen |
+| 2 | LOW | LOW | Consumer Cyclical | $208.73 | $226.67 | +$17.94 (+8.6%) | 54.4% | Medium | 43.2 | $198.64 (-4.8%) | $222.19 (+6.4%) | 1.3:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| 3 | BA | The Boeing Company | Industrials | $214.03 | $232.78 | +$18.75 (+8.8%) | 53.8% | Medium | 44.0 | $204.21 (-4.6%) | $228.09 (+6.6%) | 1.4:1 | Hold | Maintain | Maintain existing exposure. | Farnborough to survey the state of Boeing's comeback Fresh off last week's launch of new production  | Boeing Notches Regulatory Milestone for Factories Boeing shares edged higher after the plane maker w |
+| 4 | ORCL | Oracle Corporation | Technology | $126.41 | $174.67 | +$48.26 (+22.0%) | 53.4% | Medium | 44.7 | $115.03 (-9.0%) | $146.64 (+16.0%) | 1.8:1 | Hold | Maintain | Maintain existing exposure. | Oracle Data Center Plan Hits New Setback Pipeline rejection threatens timing and raises project cost | No material recent risk identified. |
+| 5 | CCL | Carnival Corporation Ltd. | Consumer Cyclical | $26.41 | $29.63 | +$3.22 (+12.2%) | 53.4% | Medium | 44.7 | $24.61 (-6.8%) | $28.83 (+9.2%) | 1.4:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
 
 ## Top 20 Decline Risks
 
 | # | Ticker | Company | Sector | Last | Target 3M | Δ $ | Δ % | Prob. Down | Confidence | Score | Recommendation | Position Status | Action | Recent Catalyst / Risk |
 |---:|---|---|---|---:|---:|---:|---:|---:|---|---:|---|---|---|---|
-| 1 | ORCL | Oracle Corporation | Technology | $124.21 | $172.64 | +$48.43 | +22.0% | 54.7% | Medium | 42.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 2 | NCLH | Norwegian Cruise Line Holdings Ltd. | Consumer Cyclical | $19.61 | $20.14 | +$0.53 | +2.7% | 53.6% | Medium | 44.4 | Hold | Maintain | Maintain existing exposure. | Norwegian Cruise Line (NCLH) Stock May Be Cheap As Fuel Relief Lifts Interest Norwegian Cruise Line  |
-| 3 | LOW | Lowe's Companies, Inc. | Consumer Cyclical | $216.16 | $232.59 | +$16.43 | +7.6% | 52.7% | Medium | 45.8 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 4 | PEP | PepsiCo, Inc. | Consumer Defensive | $139.43 | $144.63 | +$5.20 | +3.7% | 52.1% | Medium | 46.7 | Hold | Maintain | Maintain existing exposure. | Will Mixed Q2 Results and Circle K Tie-Up Change PepsiCo's (PEP) North America Profit Play? In the p |
-| 5 | BA | The Boeing Company | Industrials | $214.34 | $234.80 | +$20.46 | +9.5% | 51.9% | Medium-Low | 47.0 | Hold | Maintain | Maintain existing exposure. | Aerospace Stocks Q1 Highlights: Boeing (NYSE:BA) As the Q1 earnings season wraps, let’s dig into thi |
-| 6 | CCL | Carnival Corporation Ltd. | Consumer Cyclical | $26.86 | $30.07 | +$3.21 | +12.0% | 51.9% | Medium | 47.0 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 7 | MCD | McDonald's Corporation | Consumer Cyclical | $273.46 | $293.59 | +$20.13 | +7.4% | 51.2% | Medium | 48.2 | Hold | Maintain | Maintain existing exposure. | Can McDonald's Global Marketing Strategy Drive Customer Traffic? Can MCD's global marketing strategy |
-| 8 | IBM | International Business Machines Corporation | Technology | $219.05 | $245.33 | +$26.28 | +12.0% | 49.6% | Medium | 50.6 | Hold | Maintain | Maintain existing exposure. | IBM’s historic crash exposes AI spending trap IBM (IBM) shares lost roughly one-quarter of their val |
-| 9 | QCOM | QUALCOMM Incorporated | Technology | $170.61 | $192.73 | +$22.12 | +13.0% | 48.3% | Medium | 52.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 10 | FCX | Freeport-McMoRan Inc. | Basic Materials | $58.56 | $63.98 | +$5.42 | +9.2% | 48.2% | Medium-Low | 52.8 | Hold | Maintain | Maintain existing exposure. | Freeport-McMoRan (FCX) Earnings Expected to Grow: Should You Buy? Freeport-McMoRan (FCX) possesses t |
-| 11 | MMM | 3M Company | Industrials | $161.77 | $167.99 | +$6.22 | +3.8% | 46.4% | Medium | 55.6 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 12 | INTC | Intel Corporation | Technology | $96.98 | $102.19 | +$5.21 | +5.4% | 46.2% | Medium | 56.0 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Taiwan Semi Plans Extra $100 Billion in U.S. Investment as It Fights Intel Challenge TSMC stock was  |
-| 13 | SLB | SLB N.V. | Energy | $47.08 | $53.45 | +$6.37 | +13.5% | 46.1% | Medium-Low | 56.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | SLB Wins Multi-Well EPC Contract for the Baleine Phase 3 Development SLB expands its subsea backlog  |
-| 14 | CRM | Salesforce, Inc. | Technology | $172.68 | $204.73 | +$32.05 | +18.6% | 46.0% | Medium | 56.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 15 | PFE | Pfizer Inc. | Healthcare | $25.14 | $27.14 | +$2.00 | +7.9% | 45.2% | Medium | 57.5 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Pfizer Stock Below 50-Day and 200-Day SMA: Buy the Dip or Exit Now? PFE trades below key moving aver |
-| 16 | DE | Deere & Company | Industrials | $598.97 | $631.60 | +$32.63 | +5.4% | 45.1% | Medium | 57.6 | Hold / Watch | Maintain | Maintain; await a stronger entry. | The Power Plant Signal Hiding Inside Caterpillar Stock The real story behind the earthmoving giant’s |
-| 17 | NEM | Newmont Corporation | Basic Materials | $90.83 | $109.86 | +$19.03 | +21.0% | 45.1% | Medium-Low | 57.6 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Did Analyst Upgrades and Buybacks Just Shift Newmont's (NEM) Operational Efficiency Investment Narra |
-| 18 | BRK-B | Berkshire Hathaway Inc. | Financial Services | $493.12 | $515.84 | +$22.72 | +4.6% | 44.6% | Medium | 58.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Berkshire Hathaway Appears to Have Accelerated Stock Buybacks in Second Quarter Barron’s estimates t |
-| 19 | HD | The Home Depot, Inc. | Consumer Cyclical | $348.02 | $365.40 | +$17.38 | +5.0% | 44.6% | Medium | 58.5 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Home Furnishing and Improvement Retail Stocks Q1 Recap: Benchmarking Home Depot (NYSE:HD) As the cra |
-| 20 | COP | ConocoPhillips | Energy | $112.84 | $127.09 | +$14.25 | +12.6% | 43.8% | Medium | 59.7 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 1 | PEP | PepsiCo, Inc. | Consumer Defensive | $137.12 | $141.74 | +$4.62 | +3.4% | 54.6% | Medium | 42.8 | Hold | Maintain | Maintain existing exposure. | Where Analysts Pushed Back On PEP Stock's Latest Earnings Call PepsiCo management spent its latest e |
+| 2 | LOW | LOW | Consumer Cyclical | $208.73 | $226.67 | +$17.94 | +8.6% | 54.4% | Medium | 43.2 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 3 | BA | The Boeing Company | Industrials | $214.03 | $232.78 | +$18.75 | +8.8% | 53.8% | Medium | 44.0 | Hold | Maintain | Maintain existing exposure. | Farnborough to survey the state of Boeing's comeback Fresh off last week's launch of new production  |
+| 4 | ORCL | Oracle Corporation | Technology | $126.41 | $174.67 | +$48.26 | +22.0% | 53.4% | Medium | 44.7 | Hold | Maintain | Maintain existing exposure. | Oracle Data Center Plan Hits New Setback Pipeline rejection threatens timing and raises project cost |
+| 5 | CCL | Carnival Corporation Ltd. | Consumer Cyclical | $26.41 | $29.63 | +$3.22 | +12.2% | 53.4% | Medium | 44.7 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 6 | NCLH | Norwegian Cruise Line Holdings Ltd. | Consumer Cyclical | $19.46 | $20.14 | +$0.68 | +3.5% | 52.6% | Medium | 45.9 | Hold | Maintain | Maintain existing exposure. | Norwegian Cruise Line (NCLH) Stock May Be Cheap As Fuel Relief Lifts Interest Norwegian Cruise Line  |
+| 7 | IBM | International Business Machines Corporation | Technology | $212.67 | $239.60 | +$26.93 | +12.7% | 51.6% | Medium-Low | 47.5 | Hold | Maintain | Maintain existing exposure. | IBM (IBM) Moves 3.7% Higher: Will This Strength Last? IBM (IBM) was a big mover last session on high |
+| 8 | MCD | MCD | Consumer Cyclical | $267.71 | $290.01 | +$22.30 | +8.3% | 51.3% | Medium-Low | 48.0 | Hold | Maintain | Maintain existing exposure. | McDonald's Earnings Preview: What to Expect McDonald's is poised to report second-quarter earnings n |
+| 9 | NEM | Newmont Corporation | Basic Materials | $89.70 | $107.39 | +$17.69 | +19.7% | 49.6% | Medium | 50.7 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 10 | QCOM | QUALCOMM Incorporated | Technology | $171.78 | $192.85 | +$21.07 | +12.3% | 49.1% | Medium | 51.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 11 | HD | HD | Consumer Cyclical | $338.87 | $352.81 | +$13.95 | +4.1% | 49.1% | Medium | 51.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 12 | FCX | FCX | Basic Materials | $58.38 | $63.98 | +$5.60 | +9.6% | 47.8% | Medium-Low | 53.5 | Hold | Maintain | Maintain existing exposure. | Freeport-McMoRan (FCX) Earnings Expected to Grow: Should You Buy? Freeport-McMoRan (FCX) possesses t |
+| 13 | MMM | 3M Company | Industrials | $159.84 | $166.39 | +$6.55 | +4.1% | 47.0% | Medium | 54.7 | Hold | Maintain | Maintain existing exposure. | 3M Gears Up to Report Q2 Earnings: What Lies Ahead for the Stock? MMM heads into Q2 results with rev |
+| 14 | PFE | PFE | Healthcare | $25.05 | $26.98 | +$1.93 | +7.7% | 46.1% | Medium | 56.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Pfizer Stock Below 50-Day and 200-Day SMA: Buy the Dip or Exit Now? PFE trades below key moving aver |
+| 15 | CRM | CRM | Technology | $170.77 | $204.43 | +$33.66 | +19.7% | 44.9% | Medium | 58.0 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 16 | INTC | Intel Corporation | Technology | $95.04 | $101.67 | +$6.63 | +7.0% | 44.6% | Medium | 58.5 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Will Intel (INTC) Beat Estimates Again in Its Next Earnings Report? Intel (INTC) has an impressive e |
+| 17 | BRK-B | Berkshire Hathaway Inc. | Financial Services | $490.91 | $515.58 | +$24.67 | +5.0% | 44.1% | Medium | 59.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | 3 Stocks Smart Investors Are Buying in July Berkshire Hathaway just built or expanded positions in a |
+| 18 | COP | ConocoPhillips | Energy | $114.71 | $128.26 | +$13.55 | +11.8% | 43.8% | Medium | 59.7 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 19 | COST | Costco Wholesale Corporation | Consumer Defensive | $940.87 | $1,022.98 | +$82.11 | +8.7% | 43.4% | Medium | 60.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Costco (COST) Stock Still Looks Overvalued As Its 133% Run Draws Scrutiny Costco Wholesale has deliv |
+| 20 | XOM | XOM | Energy | $147.36 | $159.79 | +$12.43 | +8.4% | 43.3% | Medium | 60.5 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
 
 ## Strategic Watchlist
 
 | Ticker | Company | Sector | Last | Target 3M | Δ $ | Δ % | Probability | Confidence | Score | Stop Loss | Take Profit | R/R | Recommendation | Position Status | Action | Recent Catalyst | Principal Risk |
 |---|---|---|---:|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
-| PPG | PPG Industries, Inc. | Basic Materials | $118.68 | $127.00 | +$8.32 | +7.0% | 60.8% | Medium | 66.9 | $112.98 (-4.8%) | $124.92 (+5.3%) | 1.1:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | PPG Industries (PPG) In Focus On Award Win As Valuation Narrative Builds Ahead Of Q2 PPG Industries  | No material recent risk identified. |
-| CPA | Copa Holdings, S.A. | Industrials | $144.36 | $164.96 | +$20.60 | +14.3% | 62.9% | Medium | 70.1 | $136.31 (-5.6%) | $159.81 (+10.7%) | 1.9:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. Below general liquidity threshold. | Copa Holdings' June 2026 Traffic Improves Year Over Year CPA's June traffic rises on strong air trav | No material recent risk identified. |
-| AMD | Advanced Micro Devices, Inc. | Technology | $500.94 | $538.26 | +$37.32 | +7.5% | 60.2% | Medium | 66.0 | $455.86 (-9.0%) | $528.93 (+5.6%) | 0.6:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Q1 Rundown: AMD (NASDAQ:AMD) Vs Other Processors and Graphics Chips Stocks As the Q1 earnings season | No material recent risk identified. |
-| NVDA | NVIDIA Corporation | Technology | $207.40 | $257.55 | +$50.15 | +22.0% | 63.3% | Medium-High | 70.8 | $195.67 (-5.7%) | $240.58 (+16.0%) | 2.8:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | Nvidia’s Rubin reassurance protects a much bigger AI bet Nvidia (NVDA) CEO Jensen Huang has pushed b |
-| QCOM | QUALCOMM Incorporated | Technology | $170.61 | $192.73 | +$22.12 | +13.0% | 51.7% | Medium | 52.6 | $155.26 (-9.0%) | $187.20 (+9.7%) | 1.1:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| PPG | PPG | Basic Materials | $117.36 | $126.24 | +$8.88 | +7.6% | 61.0% | Medium | 67.2 | $111.59 (-4.9%) | $124.02 (+5.7%) | 1.1:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | PPG Industries (PPG) In Focus On Award Win As Valuation Narrative Builds Ahead Of Q2 PPG Industries  | No material recent risk identified. |
+| CPA | Copa Holdings, S.A. | Industrials | $139.07 | $160.77 | +$21.70 | +15.6% | 61.7% | Medium | 68.3 | $130.92 (-5.9%) | $155.34 (+11.7%) | 2.0:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. Below general liquidity threshold. | Copa Holdings' June 2026 Traffic Improves Year Over Year CPA's June traffic rises on strong air trav | No material recent risk identified. |
+| AMD | AMD | Technology | $495.76 | $539.31 | +$43.55 | +8.8% | 62.2% | Medium | 69.1 | $451.14 (-9.0%) | $528.42 (+6.6%) | 0.7:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | Dow Jones Futures: Google, Tesla, AMD Loom After AI Stock Sell-Off Google earnings and capex guidanc | No material recent risk identified. |
+| NVDA | NVIDIA Corporation | Technology | $202.81 | $255.63 | +$52.82 | +22.0% | 64.5% | Medium-High | 72.7 | $190.84 (-5.9%) | $235.26 (+16.0%) | 2.7:1 | Buy | Accumulate | Add on pullbacks. | Dell Technologies vs. NVIDIA: Which Artificial Intelligence Stock Is a Better Buy in 2026? Dell's $8 | No material recent risk identified. |
+| QCOM | QUALCOMM Incorporated | Technology | $171.78 | $192.85 | +$21.07 | +12.3% | 50.9% | Medium | 51.4 | $156.32 (-9.0%) | $187.58 (+9.2%) | 1.0:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | Qualcomm (QCOM) Slips 2% After GF Securities Starts Coverage With Hold Rating Qualcomm Faces Fresh W |
 
 ## Changes vs Previous Report
 
-**Long ranking changes recorded:** 26
+**Long ranking changes recorded:** 27
 
 **Short ranking changes recorded:** 22
 
 ## Trading Signals
 
-**Buy / Accumulate:** V, BAC, JPM, KO, WFC, GOOGL, DAL, UAL
+**Buy / Accumulate:** V, JPM, BAC, META, NVDA, WFC, DAL, MA, AIG
 
 **Reduce / Sell:** None
 
