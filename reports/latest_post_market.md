@@ -1,8 +1,8 @@
 # U.S. Equities Investment Committee Report
 
 **Report:** Post Market  
-**Generated:** 2026-10-07T20:24:37.956098-04:00  
-**Market data:** 2026-10-06  
+**Generated:** 2026-10-08T20:39:20.779045-04:00  
+**Market data:** 2026-10-07  
 **Horizon:** 3 months
 
 ## Market Snapshot
@@ -15,91 +15,91 @@
 
 | # | Ticker | Company | Sector | Last | Target 3M | Potential | Prob. Up | Confidence | Score | Stop Loss | Take Profit | R/R | Recommendation | Position Status | Action | Recent Catalyst | Principal Risk |
 |---:|---|---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
-| 1 | NVDA | NVIDIA Corporation | Technology | $239.24 | $296.70 | +$57.46 (+22.0%) | 70.3% | Medium-High | 81.7 | $229.93 (-3.9%) | $277.52 (+16.0%) | 4.1:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
-| 2 | MSFT | Microsoft Corporation | Technology | $529.30 | $594.17 | +$64.87 (+12.3%) | 67.9% | Medium-High | 78.0 | $510.55 (-3.5%) | $577.95 (+9.2%) | 2.6:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
-| 3 | LRCX | Lam Research Corporation | Technology | $333.89 | $375.30 | +$41.41 (+12.4%) | 66.6% | Medium | 75.9 | $311.97 (-6.6%) | $364.95 (+9.3%) | 1.4:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
-| 4 | AMAT | Applied Materials, Inc. | Technology | $530.27 | $612.37 | +$82.10 (+15.5%) | 66.3% | Medium-High | 75.5 | $499.81 (-5.7%) | $591.85 (+11.6%) | 2.0:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
-| 5 | MU | Micron Technology, Inc. | Technology | $1,045.56 | $1,315.65 | +$270.09 (+22.0%) | 65.9% | Medium-High | 74.8 | $976.06 (-6.6%) | $1,212.85 (+16.0%) | 2.4:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
+| 1 | NVDA | NVIDIA Corporation | Technology | $237.47 | $295.48 | +$58.01 (+22.0%) | 70.3% | Medium-High | 81.7 | $228.50 (-3.8%) | $275.47 (+16.0%) | 4.2:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
+| 2 | MSFT | Microsoft Corporation | Technology | $529.76 | $595.44 | +$65.68 (+12.4%) | 68.0% | Medium-High | 78.1 | $511.54 (-3.4%) | $579.02 (+9.3%) | 2.7:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
+| 3 | MU | Micron Technology, Inc. | Technology | $1,088.00 | $1,355.05 | +$267.05 (+22.0%) | 66.5% | Medium-High | 75.8 | $1,014.57 (-6.7%) | $1,262.08 (+16.0%) | 2.4:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
+| 4 | META | Meta Platforms, Inc. | Communication Services | $721.31 | $803.84 | +$82.53 (+11.4%) | 65.9% | Medium | 74.9 | $683.51 (-5.2%) | $783.21 (+8.6%) | 1.6:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
+| 5 | ABBV | AbbVie Inc. | Healthcare | $271.36 | $294.33 | +$22.97 (+8.5%) | 65.6% | Medium | 74.4 | $262.25 (-3.4%) | $288.59 (+6.3%) | 1.9:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
 
 ## Top 20 Appreciation Opportunities
 
 | # | Ticker | Company | Sector | Last | Target 3M | Δ $ | Δ % | Prob. Up | Confidence | Score | Recommendation | Position Status | Action | Recent Catalyst / Risk |
 |---:|---|---|---|---:|---:|---:|---:|---:|---|---:|---|---|---|---|
-| 1 | NVDA | NVIDIA Corporation | Technology | $239.24 | $296.70 | +$57.46 | +22.0% | 70.3% | Medium-High | 81.7 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 2 | MSFT | Microsoft Corporation | Technology | $529.30 | $594.17 | +$64.87 | +12.3% | 67.9% | Medium-High | 78.0 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 3 | LRCX | Lam Research Corporation | Technology | $333.89 | $375.30 | +$41.41 | +12.4% | 66.6% | Medium | 75.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 4 | AMAT | Applied Materials, Inc. | Technology | $530.27 | $612.37 | +$82.10 | +15.5% | 66.3% | Medium-High | 75.5 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 5 | MU | Micron Technology, Inc. | Technology | $1,045.56 | $1,315.65 | +$270.09 | +22.0% | 65.9% | Medium-High | 74.8 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 6 | META | Meta Platforms, Inc. | Communication Services | $738.88 | $813.03 | +$74.15 | +10.0% | 65.7% | Medium | 74.5 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 7 | AVGO | Broadcom Inc. | Technology | $375.81 | $464.10 | +$88.29 | +22.0% | 65.6% | Medium-High | 74.3 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 8 | PSX | Phillips 66 | Energy | $269.79 | $283.39 | +$13.60 | +5.0% | 65.5% | Medium | 74.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 9 | XOM | ExxonMobil Holdings Corporation | Energy | $164.48 | $179.33 | +$14.85 | +9.0% | 65.4% | Medium-High | 74.0 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 10 | VLO | Valero Energy Corporation | Energy | $419.22 | $430.05 | +$10.83 | +2.6% | 65.3% | Medium | 73.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 11 | AAPL | Apple Inc. | Technology | $333.63 | $353.63 | +$20.00 | +6.0% | 64.9% | Medium | 73.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 12 | ABBV | AbbVie Inc. | Healthcare | $266.69 | $289.58 | +$22.89 | +8.6% | 64.7% | Medium | 72.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 13 | GOOGL | Alphabet Inc. | Communication Services | $347.68 | $402.75 | +$55.07 | +15.8% | 64.4% | Medium-High | 72.5 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 14 | TMO | Thermo Fisher Scientific Inc. | Healthcare | $656.58 | $701.66 | +$45.08 | +6.9% | 64.2% | Medium | 72.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 15 | MRVL | Marvell Technology, Inc. | Technology | $287.01 | $306.98 | +$19.97 | +7.0% | 63.4% | Medium | 71.0 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 16 | DELL | Dell Technologies Inc. | Technology | $574.00 | $611.91 | +$37.91 | +6.6% | 62.9% | Medium | 70.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 17 | ETN | Eaton Corporation plc | Industrials | $445.09 | $485.23 | +$40.14 | +9.0% | 62.9% | Medium | 70.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 18 | FCX | Freeport-McMoRan Inc. | Basic Materials | $72.56 | $77.65 | +$5.09 | +7.0% | 62.4% | Medium | 69.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 19 | AMZN | Amazon.com, Inc. | Consumer Cyclical | $256.29 | $299.92 | +$43.63 | +17.0% | 62.2% | Medium-High | 69.0 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
-| 20 | V | Visa Inc. | Financial Services | $370.64 | $410.14 | +$39.50 | +10.7% | 62.1% | Medium-High | 68.9 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 1 | NVDA | NVIDIA Corporation | Technology | $237.47 | $295.48 | +$58.01 | +22.0% | 70.3% | Medium-High | 81.7 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 2 | MSFT | Microsoft Corporation | Technology | $529.76 | $595.44 | +$65.68 | +12.4% | 68.0% | Medium-High | 78.1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 3 | MU | Micron Technology, Inc. | Technology | $1,088.00 | $1,355.05 | +$267.05 | +22.0% | 66.5% | Medium-High | 75.8 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 4 | META | Meta Platforms, Inc. | Communication Services | $721.31 | $803.84 | +$82.53 | +11.4% | 65.9% | Medium | 74.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 5 | ABBV | AbbVie Inc. | Healthcare | $271.36 | $294.33 | +$22.97 | +8.5% | 65.6% | Medium | 74.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 6 | VLO | Valero Energy Corporation | Energy | $424.10 | $438.46 | +$14.36 | +3.4% | 65.5% | Medium | 74.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 7 | XOM | ExxonMobil Holdings Corporation | Energy | $164.05 | $179.18 | +$15.13 | +9.2% | 65.4% | Medium-High | 74.1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 8 | PSX | Phillips 66 | Energy | $271.62 | $284.75 | +$13.13 | +4.8% | 65.4% | Medium | 74.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 9 | LLY | Eli Lilly and Company | Healthcare | $1,188.72 | $1,326.16 | +$137.44 | +11.6% | 65.2% | Medium | 73.8 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 10 | V | Visa Inc. | Financial Services | $372.10 | $416.20 | +$44.10 | +11.9% | 65.2% | Medium-High | 73.7 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 11 | AAPL | Apple Inc. | Technology | $336.67 | $355.94 | +$19.27 | +5.7% | 65.1% | Medium | 73.6 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 12 | AMAT | Applied Materials, Inc. | Technology | $520.65 | $602.48 | +$81.83 | +15.7% | 64.8% | Medium-High | 73.2 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 13 | MRVL | Marvell Technology, Inc. | Technology | $284.68 | $324.88 | +$40.20 | +14.1% | 64.8% | Medium | 73.2 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 14 | GOOGL | Alphabet Inc. | Communication Services | $350.50 | $404.82 | +$54.32 | +15.5% | 64.5% | Medium-High | 72.7 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 15 | TMO | Thermo Fisher Scientific Inc. | Healthcare | $662.06 | $708.98 | +$46.92 | +7.1% | 64.3% | Medium | 72.4 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 16 | AVGO | Broadcom Inc. | Technology | $376.51 | $462.21 | +$85.70 | +22.0% | 64.1% | Medium-High | 72.1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 17 | MA | Mastercard Incorporated | Financial Services | $570.06 | $642.93 | +$72.87 | +12.8% | 63.4% | Medium-High | 71.0 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. |
+| 18 | LRCX | Lam Research Corporation | Technology | $329.51 | $367.64 | +$38.13 | +11.6% | 63.4% | Medium | 70.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 19 | ETN | Eaton Corporation plc | Industrials | $431.33 | $477.34 | +$46.01 | +10.7% | 63.2% | Medium | 70.6 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 20 | DELL | Dell Technologies Inc. | Technology | $578.96 | $615.01 | +$36.05 | +6.2% | 62.9% | Medium | 70.1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
 
 ## Highest Conviction Short Ideas
 
 | # | Ticker | Company | Sector | Last | Target 3M | Potential | Prob. Down | Confidence | Score | Stop Loss | Take Profit | R/R | Recommendation | Position Status | Action | Recent Catalyst | Principal Risk |
 |---:|---|---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
-| 1 | IBM | International Business Machines Corporation | Technology | $221.29 | $221.80 | +$0.51 (+0.2%) | 57.3% | Medium | 38.6 | $211.17 (-4.6%) | $223.50 (+1.0%) | 0.2:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
-| 2 | BA | The Boeing Company | Industrials | $189.82 | $217.06 | +$27.24 (+14.4%) | 57.2% | Medium | 38.8 | $180.04 (-5.2%) | $210.25 (+10.8%) | 2.1:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
-| 3 | HD | The Home Depot, Inc. | Consumer Cyclical | $286.69 | $316.66 | +$29.97 (+10.5%) | 54.9% | Medium | 42.4 | $276.38 (-3.6%) | $309.17 (+7.8%) | 2.2:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
-| 4 | LOW | Lowe's Companies, Inc. | Consumer Cyclical | $183.67 | $206.71 | +$23.04 (+12.5%) | 54.4% | Medium | 43.2 | $176.69 (-3.8%) | $200.95 (+9.4%) | 2.5:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
-| 5 | MCD | McDonald's Corporation | Consumer Cyclical | $232.45 | $253.25 | +$20.80 (+8.9%) | 53.6% | Medium | 44.4 | $225.55 (-3.0%) | $248.05 (+6.7%) | 2.3:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| 1 | IBM | International Business Machines Corporation | Technology | $220.51 | $221.36 | +$0.85 (+0.4%) | 57.3% | Medium | 38.6 | $210.70 (-4.4%) | $222.72 (+1.0%) | 0.2:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| 2 | BA | The Boeing Company | Industrials | $188.32 | $215.62 | +$27.30 (+14.5%) | 57.2% | Medium | 38.7 | $178.83 (-5.0%) | $208.79 (+10.9%) | 2.2:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| 3 | LOW | Lowe's Companies, Inc. | Consumer Cyclical | $181.54 | $205.15 | +$23.61 (+13.0%) | 54.4% | Medium | 43.2 | $174.69 (-3.8%) | $199.25 (+9.8%) | 2.6:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| 4 | MCD | McDonald's Corporation | Consumer Cyclical | $230.88 | $251.72 | +$20.84 (+9.0%) | 53.6% | Medium | 44.4 | $224.09 (-2.9%) | $246.51 (+6.8%) | 2.3:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| 5 | PEP | PepsiCo, Inc. | Consumer Defensive | $123.73 | $131.00 | +$7.27 (+5.9%) | 53.2% | Medium | 45.0 | $120.10 (-2.9%) | $129.18 (+4.4%) | 1.5:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
 
 ## Top 20 Decline Risks
 
 | # | Ticker | Company | Sector | Last | Target 3M | Δ $ | Δ % | Prob. Down | Confidence | Score | Recommendation | Position Status | Action | Recent Catalyst / Risk |
 |---:|---|---|---|---:|---:|---:|---:|---:|---|---:|---|---|---|---|
-| 1 | IBM | International Business Machines Corporation | Technology | $221.29 | $221.80 | +$0.51 | +0.2% | 57.3% | Medium | 38.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 2 | BA | The Boeing Company | Industrials | $189.82 | $217.06 | +$27.24 | +14.4% | 57.2% | Medium | 38.8 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 3 | HD | The Home Depot, Inc. | Consumer Cyclical | $286.69 | $316.66 | +$29.97 | +10.5% | 54.9% | Medium | 42.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 4 | LOW | Lowe's Companies, Inc. | Consumer Cyclical | $183.67 | $206.71 | +$23.04 | +12.5% | 54.4% | Medium | 43.2 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 5 | MCD | McDonald's Corporation | Consumer Cyclical | $232.45 | $253.25 | +$20.80 | +8.9% | 53.6% | Medium | 44.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 6 | PEP | PepsiCo, Inc. | Consumer Defensive | $125.71 | $132.91 | +$7.20 | +5.7% | 53.5% | Medium | 44.5 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 7 | WMT | Walmart Inc. | Consumer Defensive | $107.20 | $113.99 | +$6.79 | +6.3% | 52.2% | Medium | 46.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 8 | SLB | SLB N.V. | Energy | $50.00 | $54.78 | +$4.78 | +9.6% | 51.0% | Medium | 48.5 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 9 | NCLH | Norwegian Cruise Line Holdings Ltd. | Consumer Cyclical | $15.51 | $17.35 | +$1.84 | +11.8% | 49.9% | Medium | 50.2 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 10 | GS | The Goldman Sachs Group, Inc. | Financial Services | $897.18 | $972.67 | +$75.49 | +8.4% | 49.4% | Medium | 51.0 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 11 | ORCL | Oracle Corporation | Technology | $144.77 | $182.84 | +$38.07 | +22.0% | 48.8% | Medium | 51.9 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 12 | AXP | American Express Company | Financial Services | $304.55 | $333.44 | +$28.89 | +9.5% | 48.7% | Medium | 52.1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 13 | MS | Morgan Stanley | Financial Services | $191.02 | $205.18 | +$14.16 | +7.4% | 48.5% | Medium | 52.3 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 14 | APD | Air Products and Chemicals, Inc. | Basic Materials | $281.00 | $308.00 | +$27.00 | +9.6% | 48.4% | Medium | 52.5 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 15 | MMM | 3M Company | Industrials | $163.64 | $174.40 | +$10.76 | +6.6% | 48.2% | Medium | 52.8 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
-| 16 | PPG | PPG Industries, Inc. | Basic Materials | $106.52 | $115.72 | +$9.20 | +8.6% | 46.8% | Medium | 55.0 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 17 | WFC | Wells Fargo & Company | Financial Services | $81.51 | $89.96 | +$8.45 | +10.4% | 46.2% | Medium | 55.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 18 | COST | Costco Wholesale Corporation | Consumer Defensive | $935.68 | $1,000.36 | +$64.68 | +6.9% | 46.2% | Medium | 55.9 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 19 | AIG | American International Group, Inc. | Financial Services | $75.11 | $81.82 | +$6.71 | +8.9% | 45.7% | Medium | 56.7 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
-| 20 | PFE | Pfizer Inc. | Healthcare | $27.50 | $28.60 | +$1.10 | +4.0% | 45.6% | Medium | 56.8 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 1 | IBM | International Business Machines Corporation | Technology | $220.51 | $221.36 | +$0.85 | +0.4% | 57.3% | Medium | 38.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 2 | BA | The Boeing Company | Industrials | $188.32 | $215.62 | +$27.30 | +14.5% | 57.2% | Medium | 38.7 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 3 | LOW | Lowe's Companies, Inc. | Consumer Cyclical | $181.54 | $205.15 | +$23.61 | +13.0% | 54.4% | Medium | 43.2 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 4 | MCD | McDonald's Corporation | Consumer Cyclical | $230.88 | $251.72 | +$20.84 | +9.0% | 53.6% | Medium | 44.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 5 | PEP | PepsiCo, Inc. | Consumer Defensive | $123.73 | $131.00 | +$7.27 | +5.9% | 53.2% | Medium | 45.0 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 6 | HD | The Home Depot, Inc. | Consumer Cyclical | $285.77 | $319.62 | +$33.85 | +11.8% | 52.5% | Medium | 46.1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 7 | SLB | SLB N.V. | Energy | $47.96 | $53.48 | +$5.52 | +11.5% | 51.3% | Medium | 48.0 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 8 | PPG | PPG Industries, Inc. | Basic Materials | $105.08 | $112.91 | +$7.83 | +7.5% | 50.9% | Medium | 48.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 9 | NCLH | Norwegian Cruise Line Holdings Ltd. | Consumer Cyclical | $15.05 | $17.01 | +$1.96 | +13.0% | 50.8% | Medium | 48.8 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 10 | WMT | Walmart Inc. | Consumer Defensive | $108.16 | $115.73 | +$7.57 | +7.0% | 49.7% | Medium | 50.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 11 | GS | The Goldman Sachs Group, Inc. | Financial Services | $887.21 | $965.85 | +$78.64 | +8.9% | 49.4% | Medium | 50.9 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 12 | MS | Morgan Stanley | Financial Services | $189.71 | $204.27 | +$14.56 | +7.7% | 48.7% | Medium | 52.0 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 13 | AXP | American Express Company | Financial Services | $304.25 | $333.50 | +$29.25 | +9.6% | 48.3% | Medium | 52.6 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 14 | APD | Air Products and Chemicals, Inc. | Basic Materials | $278.12 | $306.11 | +$27.99 | +10.1% | 48.2% | Medium | 52.8 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 15 | MMM | 3M Company | Industrials | $162.12 | $173.61 | +$11.49 | +7.1% | 48.0% | Medium | 53.1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 16 | GE | GE Aerospace | Industrials | $303.62 | $342.99 | +$39.37 | +13.0% | 47.8% | Medium | 53.4 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. |
+| 17 | ORCL | Oracle Corporation | Technology | $143.56 | $183.38 | +$39.82 | +22.0% | 46.8% | Medium | 55.0 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 18 | WFC | Wells Fargo & Company | Financial Services | $80.26 | $89.14 | +$8.88 | +11.1% | 46.2% | Medium | 56.0 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 19 | INTC | Intel Corporation | Technology | $113.12 | $117.13 | +$4.01 | +3.5% | 46.0% | Medium | 56.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
+| 20 | COST | Costco Wholesale Corporation | Consumer Defensive | $942.25 | $1,005.49 | +$63.24 | +6.7% | 46.0% | Medium | 56.3 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. |
 
 ## Strategic Watchlist
 
 | Ticker | Company | Sector | Last | Target 3M | Δ $ | Δ % | Probability | Confidence | Score | Stop Loss | Take Profit | R/R | Recommendation | Position Status | Action | Recent Catalyst | Principal Risk |
 |---|---|---|---:|---:|---:|---:|---:|---|---:|---:|---:|---:|---|---|---|---|---|
-| PPG | PPG Industries, Inc. | Basic Materials | $106.52 | $115.72 | +$9.20 | +8.6% | 53.2% | Medium | 55.0 | $102.77 (-3.5%) | $113.42 (+6.5%) | 1.8:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
-| CPA | Copa Holdings, S.A. | Industrials | $138.31 | $161.16 | +$22.85 | +16.5% | 60.8% | Medium | 66.9 | $132.03 (-4.5%) | $155.45 (+12.4%) | 2.7:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. Below general liquidity threshold. | No material recent catalyst identified. | No material recent risk identified. |
-| AMD | Advanced Micro Devices, Inc. | Technology | $649.42 | $675.68 | +$26.26 | +4.0% | 60.9% | Medium | 67.0 | $611.06 (-5.9%) | $669.11 (+3.0%) | 0.5:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
-| NVDA | NVIDIA Corporation | Technology | $239.24 | $296.70 | +$57.46 | +22.0% | 70.3% | Medium-High | 81.7 | $229.93 (-3.9%) | $277.52 (+16.0%) | 4.1:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
-| QCOM | QUALCOMM Incorporated | Technology | $181.03 | $192.37 | +$11.34 | +6.3% | 57.6% | Medium | 61.8 | $168.54 (-6.9%) | $189.54 (+4.7%) | 0.7:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
+| PPG | PPG Industries, Inc. | Basic Materials | $105.08 | $112.91 | +$7.83 | +7.5% | 49.1% | Medium | 48.6 | $101.25 (-3.6%) | $110.96 (+5.6%) | 1.5:1 | Hold | Maintain | Maintain existing exposure. | No material recent catalyst identified. | No material recent risk identified. |
+| CPA | Copa Holdings, S.A. | Industrials | $136.27 | $159.21 | +$22.94 | +16.8% | 59.8% | Medium | 65.3 | $130.09 (-4.5%) | $153.48 (+12.6%) | 2.8:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. Below general liquidity threshold. | No material recent catalyst identified. | No material recent risk identified. |
+| AMD | Advanced Micro Devices, Inc. | Technology | $645.86 | $673.74 | +$27.88 | +4.3% | 61.0% | Medium | 67.2 | $608.38 (-5.8%) | $666.77 (+3.2%) | 0.6:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
+| NVDA | NVIDIA Corporation | Technology | $237.47 | $295.48 | +$58.01 | +22.0% | 70.3% | Medium-High | 81.7 | $228.50 (-3.8%) | $275.47 (+16.0%) | 4.2:1 | Buy | Accumulate | Add on pullbacks. | No material recent catalyst identified. | No material recent risk identified. |
+| QCOM | QUALCOMM Incorporated | Technology | $177.12 | $189.14 | +$12.02 | +6.8% | 56.6% | Medium | 60.3 | $164.88 (-6.9%) | $186.13 (+5.1%) | 0.7:1 | Hold / Watch | Maintain | Maintain; await a stronger entry. | No material recent catalyst identified. | No material recent risk identified. |
 
 ## Changes vs Previous Report
 
 **Long ranking changes recorded:** 22
 
-**Short ranking changes recorded:** 21
+**Short ranking changes recorded:** 22
 
 ## Trading Signals
 
-**Buy / Accumulate:** NVDA, MSFT, AMAT, MU, AVGO, XOM, GOOGL, AMZN, V
+**Buy / Accumulate:** NVDA, MSFT, MU, XOM, V, AMAT, GOOGL, AVGO, MA
 
 **Reduce / Sell:** None
 
